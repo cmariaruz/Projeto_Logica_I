@@ -28,7 +28,6 @@ public class OperadorEstoque {
             input.next().equalsIgnoreCase("S");
 
         }while (opcao);
-
             estoque.encontrarMenorPreco();
             estoque.encontrarMaiorPreco();
     }
